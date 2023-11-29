@@ -8,6 +8,6 @@ namespace _28_3
 {
     internal class Villa : Appartamento
     {
-        public int SuperficieGiardino { get; set; }
+        public int GiardinoSuperficie { get; set; }
     }
 }
