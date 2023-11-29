@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace _28_3
 {
-    internal class Appartamento
+    internal class Appartamento : Immobile  
     {
+        public int NumeroVani { get; set; }
+        public int NumeroBagni { get; set; }
     }
 }

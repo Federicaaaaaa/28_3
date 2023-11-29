@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace _28_3
 {
-    internal class Box
+    internal class Box : Immobile
     {
+        public int PostiAuto { get; set; }
     }
 }
