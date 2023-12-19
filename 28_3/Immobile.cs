@@ -10,7 +10,7 @@ namespace _28_3
     {
         public string Codice { get; set; }
         public string Indirizzo { get; set; }
-        public int Cap { get; set; }
+        public int CAP { get; set; }
         public string Città { get; set; }
         public int Superficie { get; set; }
     }
